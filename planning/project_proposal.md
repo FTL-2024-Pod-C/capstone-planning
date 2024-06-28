@@ -4,11 +4,11 @@ Pod Members: **Julia, Karina, Madel**
 
 ## Problem Statement
 
-In the United States, restaurants generate 22 to 33 billion pounds of food waste annually contributing significantly to economic challenges. Concurrently, approximately one in eight households face food insecurity or lack access to nutritious meals. This application aims to facilitate seamless donation of excess food from restaurants to local food pantries. 
+In the United States, restaurants generate 22 to 33 billion pounds of food waste annually contributing significantly to economic challenges. Concurrently, approximately one in eight households face food insecurity or lack access to nutritious meals.
 
 ## Description
 
-The main purpose of this website is to ensure that restaurants ethically dispose of their waste to food pantries in need of nutritious donations. Restaurants can upload their leftover food and food pantries can view such listings and make requests based on their needs. 
+The main purpose of this website is to ensure that restaurants ethically dispose of their waste to food pantries in need of nutritious donations. Restaurants can upload their leftover food and food pantries can view such listings and make requests based on their needs.
 
 ## Expected Features List
 
