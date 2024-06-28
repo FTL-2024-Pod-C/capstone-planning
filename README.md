@@ -1,14 +1,12 @@
-📝 `NOTE` Use this template repo to initialize the contents of your group's capstone repo project. As you work on your assignment over the course of the week, update the appropriate repo deliverables. All project planning should be included in the planning directory. (🚫 Remove this paragraph before submitting your assignment.)
-
 # SITE Capstone Project
 
-SITE Course Year: **20__**
+SITE Course Year: **2024**
 
 Cohort: **Add Company Sponsor Name**
 
-Team Member Names:**Insert Team Member Names**
+Team Member Names:**Julia Chaidez, Karina Perez, Madel Sibal**
 
-Mentors Names: **Insert Professional Mentor Names**
+Mentors Names: **Madhu Nama, Qin He, Omar Rahman**
 
 Project Code Repository Links
 
@@ -17,7 +15,7 @@ Project Code Repository Links
 
 ## Project Overview
 
-Add a quick summary of what your project theme and objectives are. 
+The main purpose of this website is to ensure that restaurants ethically dispose of their waste to food pantries in need of nutritious donations. Restaurants can upload their leftover food and food pantries can view such listings and make requests based on their needs. 
 
 Deployment Website: **Add Link to Deployed Project**
 
