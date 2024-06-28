@@ -4,7 +4,7 @@ SITE Course Year: **2024**
 
 Cohort: **Add Company Sponsor Name**
 
-Team Member Names:**Julia Chaidez, Karina Perez, Madel Sibal**
+Team Member Names: **Julia Chaidez, Karina Perez, Madel Sibal**
 
 Mentors Names: **Madhu Nama, Qin He, Omar Rahman**
 
