@@ -43,7 +43,3 @@ Food Pantry Persona 2: Michael runs an outreach center in Los Angeles, Californi
 9. **As a food pantry, I want to be matched automatically with restaurants based on our specific food needs and preferences, so that I can streamline the donation process and reduce search time.**
 
 10. **As a food pantry, I want to receive automated reminders or alerts when new donations are available from restaurants in our area, so that we can promptly arrange pickups and reduce food waste.**
-
-## Wireframe (Bonus)
-
-Insert link or image to your group's wireframe. 
