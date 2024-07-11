@@ -24,45 +24,44 @@ Food Pantry Persona 2: Michael runs an outreach center in Los Angeles, Californi
 
 ## User Stories
 
-1. **As a restaurant, I want to create a profile on the website, so that I can showcase my establishment and provide information about the types of surplus food I have available for donation.**
+1. As a restaurant, I want to create a profile on the website, so that I can showcase my establishment and provide information about the types of surplus food I have available for donation.
 
-2. **As a restaurant, I want to receive notifications when a food pantry requests a donation, so that I can promptly review and respond to donation requests.**
+2. As a restaurant, I want to receive notifications when a food pantry requests a donation, so that I can promptly review and respond to donation requests.
 
-3. **As a restaurant, I want to track my inventory of surplus food and update availability on the website in real-time, so that food pantries can make informed donation requests**
+3. As a restaurant, I want to track my inventory of surplus food and update availability on the website in real-time, so that food pantries can make informed donation requests.
 
-4. **As a restaurant, I want to filter food pantries by location and specific needs (e.g., dietary restrictions), so that I can target my donations more effectively.**
+4. As a restaurant, I want to filter food pantries by location and specific needs (e.g., dietary restrictions), so that I can target my donations more effectively.
 
-5. **As a restaurant, I want to maintain a record of donations made to different food pantries, including dates and quantities, so that I can track my community impact and compliance with regulations.**
+5. As a restaurant, I want to maintain a record of donations made to different food pantries, including dates and quantities, so that I can track my community impact and compliance with regulations.
 
-6. **As a food pantry, I want to search for nearby restaurants that have surplus food available, so that I can request donations that align with the nutritional needs of our clients.**
+6. As a food pantry, I want to search for nearby restaurants that have surplus food available, so that I can request donations that align with the nutritional needs of our clients.
 
-7. **As a food pantry, I want to see the donation history of a restaurant, including types and quantities of food donated, so that I can assess the reliability and suitability of donations.**
+7. As a food pantry, I want to see the donation history of a restaurant, including types and quantities of food donated, so that I can assess the reliability and suitability of donations.
 
-8. **As a food pantry, I want to rate and provide feedback on donations received from restaurants, so that I can share the quality of service and food with other pantries.**
+8. As a food pantry, I want to rate and provide feedback on donations received from restaurants, so that I can share the quality of service and food with other pantries.
 
-9. **As a food pantry, I want to be matched automatically with restaurants based on our specific food needs and preferences, so that I can streamline the donation process and reduce search time.**
+9. As a food pantry, I want to be matched automatically with restaurants based on our specific food needs and preferences, so that I can streamline the donation process and reduce search time.
 
-10. **As a food pantry, I want to receive automated reminders or alerts when new donations are available from restaurants in our area, so that we can promptly arrange pickups and reduce food waste.**
+10. As a food pantry, I want to receive automated reminders or alerts when new donations are available from restaurants in our area, so that we can promptly arrange pickups and reduce food waste.
 
 ## Pages/Screens
 
-Landing Page
-Interactive Login & Sign-Up
-Meet the Founders
-Restaurant Dashboard
-View Profile
-Update Listings
-Donation History
-Food Pantry Dashboard + Food Available Page
-View Profile
-Restaurant List
+- Landing Page
+- Interactive Login & Sign-Up
+- Meet the Founders
+- Restaurant Dashboard
+- View Profile
+- Update Listings
+- Donation History
+- Food Pantry Dashboard + Food Available Page
+- View Profile
+- Restaurant List
 
-Link to wireframe:
-`https://www.figma.com/design/T3s5bBSqb0c49lHmk9dZdw/Leftover-Love?node-id=0-1&t=fUAFR4UwJSv4q8eu-1`
+[Wireframe](https://www.figma.com/design/T3s5bBSqb0c49lHmk9dZdw/Leftover-Love?node-id=0-1&t=fUAFR4UwJSv4q8eu-1)
 
 ## Data Model
 
-## Restaurant Model
+### Restaurant Model
 
 | Column Name   | Type          | Description   |
 | ------------- | ------------- | ------------- |
@@ -75,7 +74,7 @@ Link to wireframe:
 | rating  | float  | What the restaurant is rated based on the food pantry’s feedback  |
 | profile photo  | string (url)  | Restaurants can set their profile photo  |
 
-## Food Pantry Model
+### Food Pantry Model
 
 | Column Name   | Type          | Description   |
 | ------------- | ------------- | ------------- |
@@ -87,8 +86,7 @@ Link to wireframe:
 | phone number  | string  | Food pantry phone number  |
 | profile photo  | string (url)  | Food pantries can set their profile photo  |
 
-
-## Listing Model
+### Listing Model
 
 | Column Name   | Type          | Description   |
 | ------------- | ------------- | ------------- |
@@ -103,7 +101,7 @@ Link to wireframe:
 | restaurant_id  | int | Used to associate the listing with the restaurant that uploads it  |
 
 
-## Request Model
+### Request Model
 
 | Column Name   | Type          | Description   |
 | ------------- | ------------- | ------------- |
@@ -112,7 +110,7 @@ Link to wireframe:
 | status  | string  | Indicates whether a request is pending approval from a restaurant, the request has been approved, and fulfilled  |
 | food_pantry_id  | int  | Used to associate a request with the food pantry that made it  |
 
-## Request Items Model
+### Request Items Model
 
 | Column Name   | Type          | Description   |
 | ------------- | ------------- | ------------- |
@@ -121,7 +119,7 @@ Link to wireframe:
 | listing_id  | int  | Used to associate a requested item to what listing it was made pulled from (for shopping cart purposes)  |
 | request_id  | int  | Used to associate a requested item to the specific request it was made from  |
 
-## Review Model
+### Review Model
 
 | Column Name   | Type          | Description   |
 | ------------- | ------------- | ------------- |
@@ -133,11 +131,6 @@ Link to wireframe:
 | restaurant_id  | int  | Used to associate a review with the restaurant it pertains to  |
 
 ## API Endpoints
-
-| CRUD          | HTTP Verb     | Description   | Model this applies to   |
-| ------------- | ------------- | ------------- | ----------------------- |
-| Content Cell  | Content Cell  | Content Cell  | Content Cell            |
-| Content Cell  | Content Cell  | Content Cell  | Content Cell            |
 
 | CRUD      | HTTP Verb | Description                                                                 | Models this applies to                      |
 |-----------|-----------|-----------------------------------------------------------------------------|--------------------------------------------|
