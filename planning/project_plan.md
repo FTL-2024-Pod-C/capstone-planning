@@ -79,36 +79,58 @@ Link to wireframe:
 
 | Column Name   | Type          | Description   |
 | ------------- | ------------- | ------------- |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
+| id  | int  | Primary key  |
+| name  | string  | Name of the food pantry  |
+| location  | string  | Food Pantry address  |
+| description  | string  | Description of the food pantry (whatever the food pantry user puts in when creating their profile)  |
+| email  | string  | Food pantry email  |
+| phone number  | string  | Food pantry phone number  |
+| profile photo  | string (url)  | Food pantries can set their profile photo  |
+
 
 ## Listing Model
 
 | Column Name   | Type          | Description   |
 | ------------- | ------------- | ------------- |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
+| id  | int  | Primary key  |
+| name  | string  | What the food item is is (ex. bananas)  |
+| quantity  | int  | How many of the item is available  |
+| unit  | string  | What unit of measurement the listing is in (pounds, numerical amount, etc.)  |
+| description  | string  | Description of the food item (whatever the restaurant user puts in when uploading a listing)  |
+| expiration date  | string  | Food items spoil so an expiration date is important. This will help with prioritizing items that must be requested as soon as possible  |
+| category  | string  | What category the food item falls into (dairy, meat, vegetable, etc.)  |
+| photo  | string (url) | Photo of the food item  |
+| restaurant_id  | int | Used to associate the listing with the restaurant that uploads it  |
+
 
 ## Request Model
 
 | Column Name   | Type          | Description   |
 | ------------- | ------------- | ------------- |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
+| id  | int  | Primary key  |
+| date  | DateTime  | Date of when the request was made  |
+| status  | string  | Indicates whether a request is pending approval from a restaurant, the request has been approved, and fulfilled  |
+| food_pantry_id  | int  | Used to associate a request with the food pantry that made it  |
 
 ## Request Items Model
 
 | Column Name   | Type          | Description   |
 | ------------- | ------------- | ------------- |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
+| id  | int  | Primary Key  |
+| quantity  | int  | How much the food pantry wants of that particular item  |
+| listing_id  | int  | Used to associate a requested item to what listing it was made pulled from (for shopping cart purposes)  |
+| request_id  | int  | Used to associate a requested item to the specific request it was made from  |
 
 ## Review Model
 
 | Column Name   | Type          | Description   |
 | ------------- | ------------- | ------------- |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
+| id  | int  | Primary key  |
+| rating  | float  | Food pantries can leave reviews based on how their experience with the restaurant’s donation went  |
+| date  | DateTime  | Date of when the review was made  |
+| description  | string  | Food pantries can write further details about their experience  |
+| food_pantry_id  | int  | Used to associate a review with whatever food pantry left it  |
+| restaurant_id  | int  | Used to associate a review with the restaurant it pertains to  |
 
 ## API Endpoints
 
@@ -116,3 +138,33 @@ Link to wireframe:
 | ------------- | ------------- | ------------- | ----------------------- |
 | Content Cell  | Content Cell  | Content Cell  | Content Cell            |
 | Content Cell  | Content Cell  | Content Cell  | Content Cell            |
+
+| CRUD      | HTTP Verb | Description                                                                 | Models this applies to                      |
+|-----------|-----------|-----------------------------------------------------------------------------|--------------------------------------------|
+| CREATE    | POST      | - add a restaurant                                                           | Restaurant                                 |
+|           |           | - add a listing                                                              | Listings                                   |
+|           |           | - add a food pantry                                                          | Food Pantry                                |
+|           |           | - add a request                                                               | Request                                    |
+|           |           | - add a request item                                                          | Request Items                              |
+|           |           | - add a review                                                                | Reviews                                    |
+|           |           | - add a request item to a particular request                                  | Request Items                              |
+| READ      | GET       | - fetch all restaurants                                                      | Restaurant, fetching by ID                 |
+|           |           | - fetch all food pantries                                                    | Food Pantry, fetching by ID                |
+|           |           | - fetch all listings                                                         | Listings, fetching by restaurant ID        |
+|           |           | - fetch all requests                                                         | Request, fetching by ID                    |
+|           |           | - fetch all request items                                                    | Request Items, fetching by ID              |
+|           |           | - fetch all reviews                                                          | Reviews, fetching by restaurant ID         |
+| UPDATE    | PUT       | - update a restaurant                                                        | Restaurant                                 |
+|           |           | - update a food pantry                                                       | Food Pantry                                |
+|           |           | - update a listing                                                           | Listings                                   |
+|           |           | - update a request                                                           | Request                                    |
+|           |           | - update a request item                                                      | Request Items                              |
+|           |           | - update a review                                                            | Reviews                                    |
+| DELETE    | DELETE    | - deleting a restaurant                                                      | Restaurant                                 |
+|           |           | - deleting a food pantry                                                     | Food Pantry                                |
+|           |           | - deleting a listing                                                         | Listings, deleting from a particular restaurant |
+|           |           | - deleting a request                                                         | Request                                    |
+|           |           | - deleting a review                                                          | Reviews                                    |
+|           |           | - deleting a request item                                                    | Request Items                              |
+|           |           | - deleting a request item from a particular request                          | Request Items                              |
+
