@@ -62,13 +62,57 @@ Link to wireframe:
 
 ## Data Model
 
-| First Header  | Second Header | Third Header  |
+## Restaurant Model
+
+| Column Name   | Type          | Description   |
+| ------------- | ------------- | ------------- |
+| id  | int  | Primary key  |
+| name  | string  | Name of the restaurant  |
+| location  | string  | Restaurant address  |
+| description  | string  | Description of the restaurant (whatever the restaurant user puts in when creating their profile)  |
+| email  | string  | Restaurant email  |
+| phone number  | string  | Restaurant phone number  |
+| rating  | float  | What the restaurant is rated based on the food pantry’s feedback  |
+| profile photo  | string (url)  | Restaurants can set their profile photo  |
+
+## Food Pantry Model
+
+| Column Name   | Type          | Description   |
 | ------------- | ------------- | ------------- |
 | Content Cell  | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  | Content Cell  |
 
-## Endpoints
+## Listing Model
 
-List the API endpoints you will need to implement.
+| Column Name   | Type          | Description   |
+| ------------- | ------------- | ------------- |
+| Content Cell  | Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  | Content Cell  |
 
-***Don't forget to set up your Issues, Milestones, and Project Board!***
+## Request Model
+
+| Column Name   | Type          | Description   |
+| ------------- | ------------- | ------------- |
+| Content Cell  | Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  | Content Cell  |
+
+## Request Items Model
+
+| Column Name   | Type          | Description   |
+| ------------- | ------------- | ------------- |
+| Content Cell  | Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  | Content Cell  |
+
+## Review Model
+
+| Column Name   | Type          | Description   |
+| ------------- | ------------- | ------------- |
+| Content Cell  | Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  | Content Cell  |
+
+## API Endpoints
+
+| CRUD          | HTTP Verb     | Description   | Model this applies to   |
+| ------------- | ------------- | ------------- | ----------------------- |
+| Content Cell  | Content Cell  | Content Cell  | Content Cell            |
+| Content Cell  | Content Cell  | Content Cell  | Content Cell            |
