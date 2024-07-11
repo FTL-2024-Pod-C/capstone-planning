@@ -1,6 +1,9 @@
 # Project Plan
 
-Pod Members: **Julia Chaidez Karina Perez Madel Sibal**
+**Pod Members:**
+- Julia Chaidez
+- Karina Perez
+- Madel Sibal
 
 ## Problem Statement and Description
 
@@ -10,17 +13,17 @@ The main purpose of this website is to ensure that restaurants ethically dispose
 
 ## User Roles and Personas
 
-Restaurant: a user who owns or manages a food establishment and wishes to donate surplus food to food pantries in need.
+**Restaurant:** a user who owns or manages a food establishment and wishes to donate surplus food to food pantries in need.
 
-Food Pantry: a user representing an organization dedicated to distributing food to individuals and families in need, seeking donations of surplus food from restaurants.
+**Food Pantry:** a user representing an organization dedicated to distributing food to individuals and families in need, seeking donations of surplus food from restaurants.
 
-Restaurant Persona 1: Emma owns a small restaurant in Portland, Oregon, specializing in dishes sourced from local farms. Emma is able to manage administrative tasks on her computer but prefers hands-on operations in her kitchen. Her motivation stems from a deep commitment to reducing food waste and supporting her community. Emma sees donating surplus food to food pantries as a way to make a positive impact. She is concerned about logistical challenges in coordinating donations and ensuring food safety regulations.
+**Restaurant Persona 1:** Emma owns a small restaurant in Portland, Oregon, specializing in dishes sourced from local farms. Emma is able to manage administrative tasks on her computer but prefers hands-on operations in her kitchen. Her motivation stems from a deep commitment to reducing food waste and supporting her community. Emma sees donating surplus food to food pantries as a way to make a positive impact. She is concerned about logistical challenges in coordinating donations and ensuring food safety regulations.
 
-Restaurant Persona 2: Carlos manages a family-owned diner in Miami, Florida. At 60 years old, Carlos is less comfortable with technology, mainly using his smartphone for basic communications. Despite this, Carlos shares Emma's passion for giving back to the community. He sees donating excess food from his diner as a meaningful way to contribute to the fight against food insecurity in Miami. Carlos faces challenges in managing time and resources to coordinate donations effectively while navigating concerns about liability and food preservation.
+**Restaurant Persona 2:** Carlos manages a family-owned diner in Miami, Florida. At 60 years old, Carlos is less comfortable with technology, mainly using his smartphone for basic communications. Despite this, Carlos shares Emma's passion for giving back to the community. He sees donating excess food from his diner as a meaningful way to contribute to the fight against food insecurity in Miami. Carlos faces challenges in managing time and resources to coordinate donations effectively while navigating concerns about liability and food preservation.
 
-Food Pantry Persona 1: Grace oversees a nonprofit food pantry in Chicago, Illinois, serving a diverse community in need of regular food assistance. Grace is able  to use both a computer and smartphone for managing pantry operations. Her motivation is driven by a strong commitment to ensuring her pantry consistently provides nutritious food to their clients. Grace actively seeks donations from local restaurants to supplement their food stock and meets challenges in managing fluctuating food supplies and coordinating logistics efficiently.
+**Food Pantry Persona 1:** Grace oversees a nonprofit food pantry in Chicago, Illinois, serving a diverse community in need of regular food assistance. Grace is able  to use both a computer and smartphone for managing pantry operations. Her motivation is driven by a strong commitment to ensuring her pantry consistently provides nutritious food to their clients. Grace actively seeks donations from local restaurants to supplement their food stock and meets challenges in managing fluctuating food supplies and coordinating logistics efficiently.
 
-Food Pantry Persona 2: Michael runs an outreach center in Los Angeles, California, dedicated to providing meals and support services to homeless individuals. Michael is moderately comfortable with technology, preferring face-to-face interactions for community outreach. His motivation stems from a deep empathy for the homeless population in LA. Michael relies on regular food donations from local restaurants to meet the high demand for meals at his center. He struggles with challenges such as limited resources for transportation and storage of perishable food items, as well as navigating local regulations to ensure compliance and efficiency in food donation logistics.
+**Food Pantry Persona 2:** Michael runs an outreach center in Los Angeles, California, dedicated to providing meals and support services to homeless individuals. Michael is moderately comfortable with technology, preferring face-to-face interactions for community outreach. His motivation stems from a deep empathy for the homeless population in LA. Michael relies on regular food donations from local restaurants to meet the high demand for meals at his center. He struggles with challenges such as limited resources for transportation and storage of perishable food items, as well as navigating local regulations to ensure compliance and efficiency in food donation logistics.
 
 ## User Stories
 
@@ -59,7 +62,7 @@ Food Pantry Persona 2: Michael runs an outreach center in Los Angeles, Californi
 
 [Wireframe](https://www.figma.com/design/T3s5bBSqb0c49lHmk9dZdw/Leftover-Love?node-id=0-1&t=fUAFR4UwJSv4q8eu-1)
 
-## Data Model
+## Data Models
 
 ### Restaurant Model
 
