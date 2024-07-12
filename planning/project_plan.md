@@ -161,3 +161,35 @@ The main purpose of this website is to ensure that restaurants ethically dispose
 |           |           | - deleting a request item                                                    | Request Items                              |
 |           |           | - deleting a request item from a particular request                          | Request Items                              |
 
+## Sprint Planning
+
+### Sprint #0 (Week #6):
+- Wireframes (Desktop and Mobile)
+- Data Models
+- API Endpoints
+- Determine Minimum Viable Product
+### Sprint #1 (Week #7):
+- Landing Page
+- User Authentication/Log In and Sign Up Pages
+- Restaurant and Food Pantry Dashboard Pages
+- Update Listings Page
+- Request/Cart Functionality
+- Backend Database Setup
+- Backend Database Integration with Frontend
+### Sprint #2 (Week #8):
+- Sorting/Searching Functionality (on Dashboard Pages)
+- Donation History Page
+- Restaurant and Food Pantry Profile Pages
+- Google Maps API Integration
+- Reviewing/Rating System
+- Minimum Viable Product Demo
+### Sprint #3 (Week #9):
+- Troubleshooting/Debugging/Perfecting Project
+- Responsive Design
+- Automated Matching (if time permits)
+### Sprint #4 (Week #10):
+- Creating Demo
+- Practicing Demo
+- Presenting Demo
+
+[Notion](https://www.notion.so/Leftover-Love-3-c42ebcb228a74faaa2728a6198e5e896?pvs=4)
