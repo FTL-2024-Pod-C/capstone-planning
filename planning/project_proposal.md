@@ -1,6 +1,6 @@
 # Project Proposal
 
-Pod Members: **Julia, Karina, Madel**
+Team Member Names: **Julia Chaidez, Karina Perez, Madel Sibal**
 
 ## Problem Statement
 
@@ -34,12 +34,9 @@ The main purpose of this website is to ensure that restaurants ethically dispose
 
 ## Related Work
 
-Food Runners: This is a website for an organization that helps donate excess food in San Francisco. While this website shares a similar concept to our idea, our project distinguishes itself by acting as an intermediary that directly connects food pantries with restaurants. Our website also looks to serve the national community extending beyond the San Francisco area.
-`https://www.foodrunners.org/donate-food/`
+[Food Runners](https://www.foodrunners.org/donate-food/): This is a website for an organization that helps donate excess food in San Francisco. While this website shares a similar concept to our idea, our project distinguishes itself by acting as an intermediary that directly connects food pantries with restaurants. Our website also looks to serve the national community extending beyond the San Francisco area. 
 
-Food Cloud: Connects supermarkets with charities and communities in need of food across the UK and Ireland. While this website has similar functionality to our project idea, ours stands out as food pantries can request food directly from the source compared to Food Cloud where food pantries have to go through Food Cloud themselves. 
-`https://food.cloud/ `
-
+[Food Cloud](https://food.cloud/): Connects supermarkets with charities and communities in need of food across the UK and Ireland. While this website has similar functionality to our project idea, ours stands out as food pantries can request food directly from the source compared to Food Cloud where food pantries have to go through Food Cloud themselves. 
 
 ## Open Questions
 
@@ -47,7 +44,6 @@ Food Cloud: Connects supermarkets with charities and communities in need of food
     * What are the legal requirements and regulations for food donation in different states or regions?
     * Are there any liability concerns for restaurants donating food, and how will these be addressed?
     * How will the system handle a large number of users and data entries?
-
 
 * Topics to Research More for the Project
     * Research the Good Samaritan Food Donation Act and other relevant laws to ensure compliance.

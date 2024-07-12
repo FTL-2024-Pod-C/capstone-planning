@@ -1,9 +1,6 @@
 # Project Plan
 
-**Pod Members:**
-- Julia Chaidez
-- Karina Perez
-- Madel Sibal
+Team Member Names: **Julia Chaidez, Karina Perez, Madel Sibal**
 
 ## Problem Statement and Description
 
@@ -138,7 +135,7 @@ The main purpose of this website is to ensure that restaurants ethically dispose
 | CRUD      | HTTP Verb | Description                                                                 | Models this applies to                      |
 |-----------|-----------|-----------------------------------------------------------------------------|--------------------------------------------|
 | CREATE    | POST      | - add a restaurant                                                           | Restaurant                                 |
-|           |           | - add a listing                                                              | Listings                                   |
+|           |           | - add a listing                                                              | Listing                                    |
 |           |           | - add a food pantry                                                          | Food Pantry                                |
 |           |           | - add a request                                                               | Request                                    |
 |           |           | - add a request item                                                          | Request Items                              |
