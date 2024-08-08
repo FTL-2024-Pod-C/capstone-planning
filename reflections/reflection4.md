@@ -1,25 +1,21 @@
 # Reflection #4
 
-Pod Members: **Add Pod Members Names**
+Pod Members: **Julia Chaidez, Karina Perez, Madel Sibal**
 
 ## Reflection Questions
 
-* Name at least one successful thing this week.
+* How was the pacing of the capstone project? (i.e too slow, just right, too fast) 
 
- Add response here
+The pacing of this project was good. There was a lot of time to work on the overall project and complete the MVP. We just had to cut a few features due to time constraints.
 
-* What were some challenges you and/or your group faced this week?
+* To what extent did your plan change over the course of development? Knowing that you know now, what would you do differently if you were starting over?
 
- Add response here
+There were a few features that we identified as stretch goals from the beginning. Therefore, when we decided not to include those features, it didn’t significantly alter our plans. Given what we know now, we would have better planned our individual tasks and clearly assigned responsibility for each feature.
 
-* Did you finish all of your tasks in your sprint plan for this week? If you did not finish all of the planned tasks, how would you prioritize the remaining tasks on your list?  (i.e over planned, did not know how to implement certain features, miscommunication from the team, had to pivot from original plans, etc.)
+* How helpful were the labs and weekly assignments in preparing you to create a capstone project? Be specific, what topics do you still have questions about that may or may not have been covered?
 
- Add response here
+The labs and weekly assignments were helpful in learning the materials necessary for completing the project. However, if we made more time I would have like to explore OpenAI and other AI APIs in greater depth.
 
-* Did the resources provided to you help prepare you in planning and executing your capstone project sprint this week? Be specific, what resources did you find particularly helpful or which tasks did you need more support on?
+* When planning for the capstone project, which resources were the most helpful? (i.e mentors, instructors & TAs, ideation process, pod syncs, wireframes, sprint planning, bug bash, practice demo day, etc.)
 
- Add response here
-
-* Which features and user stories would you consider “at risk”? How will you change your plan if those items remain “at risk”?
-
- Add response here
+The most valuable resources were the instructors. They were consistently willing to assist and delve deeply into how the code functions. Additionally, they offered insightful advice on how to effectively achieve our goals and present our work.

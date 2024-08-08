@@ -17,10 +17,5 @@ Project Code Repository Links
 
 The main purpose of this website is to ensure that restaurants ethically dispose of their waste to food pantries in need of nutritious donations. Restaurants can upload their leftover food and food pantries can view such listings and make requests based on their needs. 
 
-<!--
-Deployment Website: **Add Link to Deployed Project**
 
-### Open-source libraries used
-
-- Add any links to open-source libraries used in your project.
--->
+Deployment Website: **https://leftover-love-ui.onrender.com/**
